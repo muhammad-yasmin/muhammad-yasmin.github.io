@@ -446,6 +446,34 @@
 	<!-- Library - Js -->
 	<script src="libraries/lib.js"></script>
 	<script src="js/countdown.js"></script>
+	<script>
+		window.addEventListener('load', () => {
+			// noinspection JSUnresolvedVariable
+			let audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+			let xhr = new XMLHttpRequest();
+			xhr.open('GET', 'song/backsound.mp3');
+			xhr.responseType = 'arraybuffer';
+			xhr.addEventListener('load', () => {
+				let playsound = (audioBuffer) => {
+					let source = audioCtx.createBufferSource();
+					source.buffer = audioBuffer;
+					source.connect(audioCtx.destination);
+					source.loop = false;
+					source.start();
+
+					setTimeout(function () {
+						let t = document.createElement('p');
+						t.appendChild(document.createTextNode((new Date()).toLocaleString() + ': Sound played'));
+						document.querySelector('.output').appendChild(t);
+						playsound(audioBuffer);
+					}, 1000 + Math.random()*2500);
+				};
+
+				audioCtx.decodeAudioData(xhr.response).then(playsound);
+			});
+			xhr.send();
+		});
+	</script>
 	
 	<!-- RS5.0 Core JS Files -->
 	<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
@@ -466,11 +494,11 @@
 	<!-- Library - Theme JS -->
 	<script src="js/functions.js"></script>
 	
-	<audio controls autoplay hidden id="lagunya">
+	<!-- <audio controls autoplay hidden id="lagunya">
 		<source src="song/backsound.ogg" type="audio/ogg">
 		<source src="song/backsound.mp3" type="audio/mpeg">
 		Your browser does not support the audio element.
-	</audio>
+	</audio> -->
 
 </body>
 </html>

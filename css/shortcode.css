@@ -1369,7 +1369,7 @@
 
 /* - Counter Section */
 .counter-section {
-	background-color: #e2b13c;
+	background-color: #0f172a;
 	padding: 55px 0 25px;
 }
 .counter-section .counter-box {
@@ -1381,7 +1381,7 @@
 	margin-bottom: 30px;
 }
 .counter-section .counter-box::after {
-	border: 1px solid #e2b13c;
+	border: 1px solid #0f172a;
 	content: "";
 	position: absolute;
 	left: 10px;
@@ -1391,7 +1391,7 @@
 	z-index: -1;
 }
 .counter-section .counter-box i {
-	background-color: #e2b13c;
+	background-color: #0f172a;
 	color: #fff;
 	display: inline-block;
 	font-size: 30px;
@@ -1410,7 +1410,7 @@
 	margin-bottom: 20px;
 }
 .counter-section .counter-box p {
-	color: #e2b13c;
+	color: #0f172a;
 	font-family: 'PT Serif', serif;
 	font-weight: 700;
 	font-size: 14px;

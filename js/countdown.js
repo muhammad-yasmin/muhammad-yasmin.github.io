@@ -9,7 +9,7 @@ var x = setInterval(function(){
     var menite = Math.floor((selangDino % (1000*60*60)) / (1000*60));
     var detike = Math.floor((selangDino % (1000*60)) / 1000);
 
-    document.getElementById("tanggalnya").innerHTML = dinone + " hari " + jame + " jam " + menite + " menit " + detike + " detik.";
+    document.getElementById("tanggalnya").innerHTML = dinone + " hari " + jame + " jam " + menite + " menit " + detike + " detik";
 
     if(selangDino < 0){
         clearInterval(x);

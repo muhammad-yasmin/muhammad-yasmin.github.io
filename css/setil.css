@@ -1,14 +1,14 @@
 .flowers {
-    background-image: url('../images/bg-full-01.svg');
+    background-image: url('../images/bg_1366.svg');
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: scroll;
     background-size: cover;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (min-width: 1366px){
     .flowers {
-        background-image: url('../images/bg-360-02.svg');
+        background-image: url('../images/bg_1366.svg');
         background-repeat: no-repeat;
         background-position: center top;
         background-attachment: scroll;
@@ -16,9 +16,39 @@
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (min-width: 1024px){
     .flowers {
-        background-image: url('../images/bg-500-02.svg');
+        background-image: url('../images/bg_1024.svg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .flowers {
+        background-image: url('../images/bg_700.svg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 400px){
+    .flowers {
+        background-image: url('../images/bg_400.svg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 300px){
+    .flowers {
+        background-image: url('../images/bg_300.svg');
         background-repeat: no-repeat;
         background-position: center top;
         background-attachment: scroll;

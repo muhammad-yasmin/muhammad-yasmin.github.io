@@ -1,4 +1,4 @@
-var tanggalAcara = new Date("May 26, 2022 00:00:01").getTime();
+var tanggalAcara = new Date("July 16, 2022 08:00:00").getTime();
 
 var x = setInterval(function(){
     var tanggalSaiki = new Date().getTime();

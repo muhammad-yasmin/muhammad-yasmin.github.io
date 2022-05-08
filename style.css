@@ -585,7 +585,7 @@ h1,h2,h3,h4,h5,h6,a,p {
 .section-header h3 {
 	font-family: 'Poppins', sans-serif;
 	color: #f2f2f2;
-	font-size: 80px;
+	font-size: 75px;
 	font-weight: bold;
 	letter-spacing: -1.6px;
 	text-transform: uppercase;
@@ -596,11 +596,11 @@ h1,h2,h3,h4,h5,h6,a,p {
 	position: relative;
 }
 .section-header h3 b {
-	color: #e1e1e1;
+	color: #e2b13c;
 }
 .section-header h3 > span {
-	color: #333;
-	text-transform: capitalize;
+	color: #103466;
+	text-transform: uppercase;
 	position: absolute;
 	font-size: 24px;
 	font-weight: 500;

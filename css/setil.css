@@ -1,3 +1,12 @@
+.buat-tanggal {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #103466;
+    line-height: 30px;
+    font-size: 100px;
+}
+
+/* flowers1 */
 .flowers {
     background-image: url('../images/bg_1366.svg');
     background-repeat: no-repeat;
@@ -49,6 +58,65 @@
 @media screen and (min-width: 300px){
     .flowers {
         background-image: url('../images/bg_300.svg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
+/* flowers2 */
+.flowers2 {
+    background-image: url('../images/bg2_1440x1004.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+@media screen and (min-width: 1366px){
+    .flowers2 {
+        background-image: url('../images/bg2_1440x1004.svg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .flowers2 {
+        background-image: url('../images/bg2_1024x1004.svg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .flowers2 {
+        background-image: url('../images/bg2_768x1004.svg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 400px){
+    .flowers2 {
+        background-image: url('../images/bg2_425x1004.svg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 300px){
+    .flowers2 {
+        background-image: url('../images/bg2_300x1004.svg');
         background-repeat: no-repeat;
         background-position: center top;
         background-attachment: scroll;

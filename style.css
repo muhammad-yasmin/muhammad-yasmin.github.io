@@ -584,8 +584,8 @@ h1,h2,h3,h4,h5,h6,a,p {
 }
 .section-header h3 {
 	font-family: 'Poppins', sans-serif;
-	color: #f2f2f2;
-	font-size: 75px;
+	color: #e2b13c;
+	font-size: 60px;
 	font-weight: bold;
 	letter-spacing: -1.6px;
 	text-transform: uppercase;
@@ -600,7 +600,7 @@ h1,h2,h3,h4,h5,h6,a,p {
 }
 .section-header h3 > span {
 	color: #103466;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	position: absolute;
 	font-size: 24px;
 	font-weight: 500;
@@ -608,10 +608,10 @@ h1,h2,h3,h4,h5,h6,a,p {
 	right: 0;
 	letter-spacing: 0.96px;
 	top: 50%;
-	transform: translate(0%, -50%);
-	-webkit-transform: translate(0%, -50%);
-	-moz-transform: translate(0%, -50%);
-	-ms-transform: translate(0%, -50%);
+	transform: translate(0%, 0%);
+	-webkit-transform: translate(0%, 0%);
+	-moz-transform: translate(0%, 0%);
+	-ms-transform: translate(0%, 0%);
 }
 .section-header h3 span span {
 	text-transform: uppercase;
